@@ -16,7 +16,7 @@ export default function Users() {
 
     return (
         <div className='p-4'>
-            {console.log(data)}
+            {console.log(data)}z
             {data.map((val, ind) => {
                 return <>
                     <div key={ind} className='d-flex justify-content-center'>
